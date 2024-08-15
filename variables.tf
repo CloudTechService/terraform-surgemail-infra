@@ -17,7 +17,7 @@ variable "Owner" {
 
 variable "instance_type" {
   type    = string
-  default = "t2.micro"
+  default = "c5.2xlarge"
 }
 
 variable "key_name" {
